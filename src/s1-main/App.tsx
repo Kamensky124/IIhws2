@@ -5,7 +5,7 @@ import HW1 from '../s2-homeworks/hw01/HW1'
 function App() {
     return (
         <div className={s.App}>
-            <h1>Try deploy gh-pages</h1>
+            <h1>Kamensky124 homework #1 is done/h1>
             <HW1/>
             {/*раскомментировать по ходу выполнения*/}
             {/*<HW2/>*/}
