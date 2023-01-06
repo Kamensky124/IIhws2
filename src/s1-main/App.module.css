@@ -1,11 +1,14 @@
 .App {
     --header_height: 60px;
+
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
 }
 
 .hwTitle {
-
+    background-color: gold;
 }
