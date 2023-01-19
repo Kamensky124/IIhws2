@@ -3,7 +3,7 @@ import Greeting from './Greeting'
 import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
+    users: UserType // need to fix any
     addUserCallback: any // need to fix any
 }
 
@@ -35,6 +35,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         error && setError('')
     }
     const addUser = () => {
+        debugger
         pureAddUser(name, setError, setName, addUserCallback)
     }
 
