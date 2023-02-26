@@ -1,68 +1,107 @@
 .message {
-    height: 80%;
-    width: 80%;
+    /*height: 80%;*/
+    /*width: 80%;*/
     display: flex;
-    flex-direction: column;
-
+    /*flex-direction: column;*/
+    align-items: flex-end;
+    margin: 10px
 }
 
-.imageAndText {
-    display: flex;
-    flex-direction: row;
-    order:0;
-    align-items: end;
-    background-color: lightyellow;
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
-.imageAndText img {
-    display: flex;
-    flex-direction: row;
-    height: 30px;
-    align-items: end;
-    background-color: lightyellow;
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: rgba(100, 100, 100, 0.3)
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(100, 100, 100, 0.3) 0)
 }
 
 .text {
-    width: 50%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    order: 1;
-    background-color: blue;
-    border-radius: 25px;
-    /*upside*/
-    padding: 5px;
-}
+    min-width: 150px;
+    max-width: 300px;
+    /*для переноса слов*/
+    word-wrap: break-word
 
-.text:after {
-    display: flex;
-    flex-direction: row;
-    background-color: lightyellow;
 }
 
 .name {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    /*for round corners*/
-    border-radius: 25px;
+    font-size: 20px;
+    font-width: bold;
+    color: blue
 }
 
-.messageText {
-    font-size: 14px;
+.time{
     display: flex;
-    flex-direction: row;
-    background-color: blue;
-    border-radius: 25px;
-    /*downside*/
-    padding: 5px;
+    justify-content: flex-end;
+    color: black
 }
 
-.time {
-    align-items: end;
-    text-align: left;
-    font-size: 10px;
-    color: black;
-    background-color: lightyellow;
-}
+/*.imageAndText {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    order: 0;*/
+/*    align-items: end;*/
+/*    background-color: lightyellow;*/
+/*}*/
+
+/*.imageAndText img {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    height: 30px;*/
+/*    align-items: end;*/
+/*    background-color: lightyellow;*/
+/*}*/
+
+/*.text {*/
+/*    width: 50%;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    order: 1;*/
+/*    background-color: blue;*/
+/*    border-radius: 25px;*/
+/*    !*upside*!*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.text:after {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    background-color: lightyellow;*/
+/*}*/
+
+/*.name {*/
+/*    font-size: 15px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: blue;*/
+/*    !*for round corners*!*/
+/*    border-radius: 25px;*/
+/*}*/
+
+/*.messageText {*/
+/*    font-size: 14px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    background-color: blue;*/
+/*    border-radius: 25px;*/
+/*    !*downside*!*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.time {*/
+/*    align-items: end;*/
+/*    text-align: left;*/
+/*    font-size: 10px;*/
+/*    color: black;*/
+/*    background-color: lightyellow;*/
+/*}*/

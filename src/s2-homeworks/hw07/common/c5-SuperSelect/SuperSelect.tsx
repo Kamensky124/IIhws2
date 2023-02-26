@@ -1,3 +1,4 @@
+import { debug } from 'console'
 import React, {
     SelectHTMLAttributes,
     DetailedHTMLProps,
@@ -37,6 +38,9 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         // делают студенты
+        // debugger
+        onChange && onChange(e);
+        onChangeOption && onChangeOption(e.currentTarget.value)
         // если onChangeOption вообще существует, то...
     }
 
