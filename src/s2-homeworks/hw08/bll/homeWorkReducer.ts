@@ -9,11 +9,11 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
     switch (action.type) {
         case 'sort': { // by name
             // sort() создаёт новый массив? или нужно в ручную?...
-            if (action.payload == 'up') {
+            if (action.payload === 'up') {
                 NewState.sort(((a, b)=> a.name.localeCompare(b.name)))
                 // state.sort()
             }
-            if (action.payload == 'down') {
+            if (action.payload === 'down') {
                 NewState.sort(((a, b)=> b.name.localeCompare(a.name)))
             }
             return NewState // need to fix
