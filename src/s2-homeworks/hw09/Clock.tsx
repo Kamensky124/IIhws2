@@ -15,9 +15,10 @@ function Clock() {
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
 
-        stop()
+        // stop()
         disabledStart=true
         disabledStop=false
+        console.log(disabledStart,disabledStop)
         const id: number = +setInterval(() => {
             setDate(new Date())
         }, 1000)
@@ -42,6 +43,7 @@ function Clock() {
         clearInterval(timerId);
         disabledStart=false
         disabledStop=true
+        console.log(disabledStart,disabledStop)
         // BAD AK
         // setTimerId(undefined)
     }
@@ -107,6 +109,7 @@ function Clock() {
                 <SuperButton
                     id={'hw9-button-start'}
                     disabled={disabledStart} // пишут студенты // задизэйблить если таймер запущен
+                    xType={disabledStart?'disabled':''}
                     onClick={start}
                 >
                     start
@@ -114,12 +117,11 @@ function Clock() {
                 <SuperButton
                     id={'hw9-button-stop'}
                     disabled={disabledStop} // пишут студенты // задизэйблить если таймер не запущен
-
+                    xType={disabledStop?'disabled':''}
                     onClick={stop}
                 >
                     stop
                 </SuperButton>
-                <SuperButton onClick={(event) => console.log(disabledStart,disabledStop)}></SuperButton>
             </div>
         </div>
     )
