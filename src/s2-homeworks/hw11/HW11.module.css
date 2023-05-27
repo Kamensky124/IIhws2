@@ -2,7 +2,18 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .number {
+    min-width: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
