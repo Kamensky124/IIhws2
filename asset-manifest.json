@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/IIhws2/static/css/main.a21b2829.css",
-    "main.js": "/IIhws2/static/js/main.0ecd208c.js",
-    "static/js/787.284afc1d.chunk.js": "/IIhws2/static/js/787.284afc1d.chunk.js",
-    "static/media/avatar.png": "/IIhws2/static/media/avatar.d947cb9d0d13765666b6.png",
-    "static/media/200.svg": "/IIhws2/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
-    "static/media/404.svg": "/IIhws2/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
-    "static/media/closeOutline.svg": "/IIhws2/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
-    "static/media/editIcon.svg": "/IIhws2/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
-    "static/media/checked.svg": "/IIhws2/static/media/checked.b75ca55e8759862b4083.svg",
-    "index.html": "/IIhws2/index.html",
-    "static/media/burger.svg": "/IIhws2/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.a21b2829.css.map": "/IIhws2/static/css/main.a21b2829.css.map",
-    "main.0ecd208c.js.map": "/IIhws2/static/js/main.0ecd208c.js.map",
-    "787.284afc1d.chunk.js.map": "/IIhws2/static/js/787.284afc1d.chunk.js.map"
+    "main.css": "/git@github.com:Kamensky124/IIhws2.git/static/css/main.fa3b3a4b.css",
+    "main.js": "/git@github.com:Kamensky124/IIhws2.git/static/js/main.1de19d88.js",
+    "static/js/787.284afc1d.chunk.js": "/git@github.com:Kamensky124/IIhws2.git/static/js/787.284afc1d.chunk.js",
+    "static/media/avatar.png": "/git@github.com:Kamensky124/IIhws2.git/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
+    "static/media/404.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/editIcon.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
+    "index.html": "/git@github.com:Kamensky124/IIhws2.git/index.html",
+    "static/media/checked.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/checked.b75ca55e8759862b4083.svg",
+    "static/media/burger.svg": "/git@github.com:Kamensky124/IIhws2.git/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.fa3b3a4b.css.map": "/git@github.com:Kamensky124/IIhws2.git/static/css/main.fa3b3a4b.css.map",
+    "main.1de19d88.js.map": "/git@github.com:Kamensky124/IIhws2.git/static/js/main.1de19d88.js.map",
+    "787.284afc1d.chunk.js.map": "/git@github.com:Kamensky124/IIhws2.git/static/js/787.284afc1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21b2829.css",
-    "static/js/main.0ecd208c.js"
+    "static/css/main.fa3b3a4b.css",
+    "static/js/main.1de19d88.js"
   ]
 }
