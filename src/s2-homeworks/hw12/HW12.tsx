@@ -27,7 +27,7 @@ const HW12 = () => {
     const dispatch = useDispatch()
 
     const change = (id: any) => { // дописать функцию
-        console.log(typeof(id))
+        // console.log(typeof(id))
         dispatch(changeThemeId(id))
     }
 

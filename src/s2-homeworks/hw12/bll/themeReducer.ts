@@ -7,8 +7,8 @@ const initState = {
 
 export const themeReducer = (state = initState, action: changeThemeIdType): typeof state => { // fix any
 
-    console.log(typeof state)
-    debugger
+    // console.log(typeof state)
+    // debugger
     switch (action.type) {
         case 'SET_THEME_ID':
             return {
